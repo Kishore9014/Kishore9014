@@ -1,0 +1,32 @@
+- 👋 Hi, I’m @Kishore9014
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Kishore9014/Kishore9014 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+import java.util.*;
+class ReverseEven
+{
+	public static void main(String args[])
+	{
+		int n,m;
+		Scanner sc= new Scanner(System.in);
+		System.out.println("ENTER THE HIGHEST DIGIT");
+		n=sc.nextInt();
+		System.out.println("ENTER THE LOWEST DIGIT");
+		m=sc.nextInt();
+		while(m>=n)
+		{
+			if(m%2==0)
+			{
+			System.out.println(m);
+			
+			}
+			m--;
+		}
+	}
+}
